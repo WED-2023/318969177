@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: Verdana , sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	background: #fff;
@@ -27,7 +27,7 @@ body {
 }
 
 #logo {
-	width: 150px; 
+	width: 100px; 
 	height: auto;
 	margin-right: 20px; 
   }
@@ -49,6 +49,31 @@ body {
 #menu a:hover {
 	background: #ff9900;
 }
+
+p[name="aboutme"] {
+	font-family: Verdana , sans-serif; 
+	line-height: 1.6;
+	font-size: 30px;
+	color: #333; 
+	
+  }
+
+p[name="qa&"] {
+	font-family: Verdana , sans-serif; 
+	line-height: 1.6;
+	font-size: 30px;
+	color: #333; 
+	
+  }
+
+p[name="song"] {
+	font-family: Verdana , sans-serif; 
+	line-height: 1.6;
+	font-size: 30px;
+	color: #333; 
+	
+  }
+
 
 /* Sections */
 .section {
@@ -104,7 +129,7 @@ form input, form textarea {
 	color: #000;
 }
 
-/* Submit Button */
+
 button[type="submit"] {
 	background: #004080;
 	color: white;
@@ -120,27 +145,3 @@ button[type="submit"]:hover {
 	background: #ff9900;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-	body {
-		font-size: 16px;
-	}
-	#menu a {
-		font-size: 18px;
-	}
-	.section {
-		padding: 40px 15px;
-	}
-}
-
-@media (max-width: 480px) {
-	body {
-		font-size: 14px;
-	}
-	#menu a {
-		font-size: 16px;
-	}
-	.section {
-		padding: 30px 10px;
-	}
-}
