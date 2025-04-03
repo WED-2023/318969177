@@ -1,10 +1,30 @@
-Yaki Naftali
 ID: 318969177
+
+This is the link for the web page:
+
+    https://wed-2023.github.io/318969177/
+
 -----------------------------------------------------------------------------------------------
 
 Pat Gelsinger Webpage
 
-    This is a webpage I made about Pat Gelsinger, the former CEO of Intel. It containes information about him, photos, a like button, a song, a contact form, and a QR code.
+    This is a webpage I made about Pat Gelsinger, the former CEO of Intel. 
+
+
+    Features
+    About Me Section: short breif on his life.
+
+    Photos: A collection of photos of Pat.
+
+    Playlist: Embedded video of his favorite song.
+
+    Like: A button that allows users to like his page.
+
+    QR Code: A scannable QR code.
+
+    Q&A Section: according to the requierment: answer aboout the differences between Web1,2,3 and an example answer for a question.
+
+    Contact Form: A form allowing visitors to send messages.
 
 Project Structure
 
@@ -17,9 +37,7 @@ Project Structure
         web_script.js - The interactive code.
 
 
-This is the link for the web page:
 
-    https://wed-2023.github.io/318969177/
 
 ------------------------------------------------------------------------------------------------
 
