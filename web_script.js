@@ -10,17 +10,17 @@ let count = 0;
 
 function morelikes() {
   count++;
-  let counterElement = document.getElementById("counter");
-  let likeImage = document.getElementById("likeImage");
+  let countr = document.getElementById("counter");
+  let img = document.getElementById("likeImage");
 
-  likeImage.style.display = "block";
-  counterElement.style.display = "none";
+  img.style.display = "block";
+  countr.style.display = "none";
 
   // Hide image and show number after 0.4 sec
   setTimeout(() => {
-      likeImage.style.display = "none";
-      counterElement.style.display = "inline"; 
-      counterElement.innerText = count;
+      img.style.display = "none";
+      countr.style.display = "inline"; 
+      countr.innerText = count;
   }, 400);
 }
 

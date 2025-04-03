@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: Verdana , sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	background: #fff;
@@ -23,12 +23,6 @@ body {
 	z-index: 1000;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
-#logo {
-	width: 100px; 
-	height: auto;
-	margin-right: 20px; 
-  }
 
 #menu li {
 	display: inline;
@@ -48,30 +42,18 @@ body {
 	background: #ff9900;
 }
 
-p[name="aboutme"] {
-	font-family: Verdana , sans-serif; 
+#logo {
+	width: 100px; 
+	height: auto;
+	margin-right: 20px;
+}
+
+p[name="aboutme"], p[name="qa&"], p[name="song"] {
+	font-family: Verdana, sans-serif; 
 	line-height: 1.6;
 	font-size: 30px;
 	color: #333; 
-	
-  }
-
-p[name="qa&"] {
-	font-family: Verdana , sans-serif; 
-	line-height: 1.6;
-	font-size: 30px;
-	color: #333; 
-	
-  }
-
-p[name="song"] {
-	font-family: Verdana , sans-serif; 
-	line-height: 1.6;
-	font-size: 30px;
-	color: #333; 
-	
-  }
-
+}
 
 .section {
 	padding: 50px 20px;
@@ -125,9 +107,8 @@ form input, form textarea {
 	color: #000;
 }
 
-
-button[type="submit"] {
-	background: #004080;
+button[type="submit"], .buttonoflike {
+	background: linear-gradient(to right, #2947bd, #4165f5);
 	color: white;
 	font-size: 18px;
 	padding: 12px 30px;
@@ -137,7 +118,7 @@ button[type="submit"] {
 	transition: 0.3s;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover, .buttonoflike:hover {
 	background: #ff9900;
 }
 
@@ -149,20 +130,6 @@ button[type="submit"]:hover {
 	display: inline-block;
 	text-align: center;
 }
-
-
-.buttonoflike {
-	background: linear-gradient(to right, #2947bd, #4165f5);
-	color: white;
-	border: none;
-	padding: 12px 25px;
-	font-size: 18px;
-	font-weight: bold;
-	cursor: pointer;
-	border-radius: 50px;
-	transition: 0.3s;
-}
-
 
 .counteroflikes {
 	display: block;
@@ -177,4 +144,31 @@ button[type="submit"]:hover {
 	max-width: 50px;
 	max-height: 50px;
 	margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
